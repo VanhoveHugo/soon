@@ -4,19 +4,40 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+### First, install modules:
 
 ```bash
-1 Install modules:
 npm install
 # or
 yarn install
+```
+### Add .env.local
 
-2 Start server:
+```
+MONGO_URI=
+
+GOOGLE_ID=
+GOOGLE_SECRET=
+
+SECRET=
+```
+MONGO_URI
+[https://account.mongodb.com/account/login](https://account.mongodb.com/account/login)
+
+GOOGLE_ID & GOOGLE_SECRET
+[https://console.cloud.google.com/apis](https://console.cloud.google.com/apis)
+
+SECRET:
+UnCodeSecretAChanger
+
+### Start server
+```bash
 npm run dev
 # or
 yarn dev
 ```
+
+
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 

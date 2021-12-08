@@ -1,0 +1,11 @@
+.hero_banner::before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-top: 0 solid transparent;
+    border-right: 100vw solid #e056fd;
+    border-bottom: 7.5rem solid transparent;
+}
